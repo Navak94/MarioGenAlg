@@ -20,7 +20,7 @@ def fixEmu(): #fix VirtuaNES keyboard bug
 
 def StartMenu(): #get past the start menu
     
-      for x in range(0,3): # press enter twice
+      for x in range(0,3): # press start twice
           keyboard.press('l')
           fixEmu()
           
